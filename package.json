@@ -1,0 +1,31 @@
+{
+  "name": "web-components-concept",
+  "version": "1.0.0",
+  "description": "web components concept include Custom-Element, template, slot etc.",
+  "main": "app.js",
+  "dependencies": {
+    "terser": "^5.19.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -w --outDir ./src", 
+    "dev": "ts-node ./typescript/app.ts > ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stacksagar/web-components.git"
+  },
+  "keywords": [
+    "web",
+    "components"
+  ],
+  "author": "stacksagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stacksagar/web-components/issues"
+  },
+  "homepage": "https://github.com/stacksagar/web-components#readme"
+}
