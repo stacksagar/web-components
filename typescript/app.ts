@@ -1,4 +1,4 @@
-class CustomButton extends HTMLElement {
+class CustomButton2 extends HTMLElement {
   shadow: ShadowRoot;
   name: string;
   constructor() {
@@ -25,8 +25,7 @@ class CustomButton extends HTMLElement {
       button {
           background: orange;
           color: white;
-          padding: 10px 20px;
-          background: black;
+          padding: 10px 20px; 
           border: 4px;
         }
       `;
@@ -35,4 +34,4 @@ class CustomButton extends HTMLElement {
   }
 }
 
-customElements.define("custom-button", CustomButton);
+customElements.define("custom-button", CustomButton2);

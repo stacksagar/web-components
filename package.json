@@ -10,9 +10,7 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc -w --outDir ./src", 
-    "dev": "ts-node ./typescript/app.ts > ./src/app.js"
+    "start": "tsc -w --outDir ./src"
   },
   "repository": {
     "type": "git",

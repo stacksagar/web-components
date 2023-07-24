@@ -1,5 +1,5 @@
 "use strict";
-class CustomButton extends HTMLElement {
+class CustomButton2 extends HTMLElement {
     constructor() {
         super();
         this.shadow = this.attachShadow({ mode: "open" });
@@ -20,12 +20,11 @@ class CustomButton extends HTMLElement {
       button {
           background: orange;
           color: white;
-          padding: 10px 20px;
-          background: black;
+          padding: 10px 20px; 
           border: 4px;
         }
       `;
         return style;
     }
 }
-customElements.define("custom-button", CustomButton);
+customElements.define("custom-button", CustomButton2);
