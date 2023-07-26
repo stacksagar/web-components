@@ -6,7 +6,6 @@ class CountWords extends HTMLParagraphElement {
   }
 
   connectedCallback() {
-    console.log();
     const span = document.createElement("span");
     span.innerText = "words is = " + this.countTotalParentWords().toString();
     this.shadow.append(span);
@@ -15,7 +14,7 @@ class CountWords extends HTMLParagraphElement {
   private countTotalParentWords() {
     const parentEle = this.parentElement;
     const content = parentEle?.innerText || parentEle?.textContent;
-    return content?.split(" ").length || 0;
+    return content?.split(/\s+/).length || 0
   }
 }
 
